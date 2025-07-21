@@ -1,0 +1,13 @@
+GorilaSnipeBot/
+├── main.py                    # Núcleo del sniper
+├── telegram_bot.py            # Panel Telegram
+├── dashboard/
+│   ├── app.py                 # Servidor Flask
+│   ├── templates/             # HTML y gráficas
+│   └── static/                # CSS / Chart.js / logo opcional
+├── utils/
+│   └── token_checker.py       # Análisis inteligente
+├── data/snipes.db             # Base de datos SQLite
+├── .env                       # Configuración privada
+├── requirements.txt           # Dependencias
+└── README.md                  # Documentación PRO
